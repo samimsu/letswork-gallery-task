@@ -12,7 +12,7 @@ export default function App() {
   console.log(imagesJSON);
   const [images, setImages] = useState(imagesJSON);
   const [largestKey, setLargestKey] = useState(images.length - 1);
-  const [imagesPerPage, setImagesPerPage] = useState(3);
+  const [imagesPerPage, setImagesPerPage] = useState(10);
   const [previousDisabled, setPreviousDisabled] = useState(true);
   const [nextDisabled, setNextDisabled] = useState(false);
   const [addImageInput, setAddImageInput] = useState({ caption: "", url: "" });
